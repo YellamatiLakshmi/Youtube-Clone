@@ -1,1 +1,1 @@
-# Youtube-Clone
+🎥 A simple YouTube homepage clone built using HTML and CSS. This project replicates the layout and styling of YouTube's main page, including video thumbnails, channel icons, and responsive design for practice and learning purposes.
