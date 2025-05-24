@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+
+            <a href="https://www.youtube.com/watch?v=C_K3EcbVmHI">
+              <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            </a>
+
+            <div class="video-time">2:46</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+
+              <a href="https://www.youtube.com/@marvelin">
+                <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+              </a>
+
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Marvel Anthem | Telugu | A.R.Rahman
+              </p>
+              <p class="video-author">                
+                IndiaMarvel
+              </p>
+              <p class="video-stats">
+                18M views &#183; 6 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+
+            <a href="https://www.youtube.com/watch?v=OHb76_wcVak">
+              <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            </a>
+
+            <div class="video-time">2:38</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              
+              <a href="https://www.youtube.com/@LahariMusicIndia">
+                <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+              </a>
+
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Nijamena Video Song | Sita Telugu Movie | Bellamkonda Sai Sreenivas, Kajal Aggarwal | Anup Rubens
+              </p>
+              <p class="video-author">        
+                Lahari Music | T-Series
+              </p>
+              <p class="video-stats">
+                10M views &#183; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+
+            <a href="https://www.youtube.com/watch?v=q5sxzHWvkqk">
+              <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+            </a>
+
+            <div class="video-time">3:16</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+
+              <a href="https://www.youtube.com/@MRTMusic">
+                <img class="profile-picture" src="channel-pictures/channel-3.jpeg">
+              </a>
+
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                O Sayonara Sayonara Full Video Song [4K] | 1 Nenokkadine | Mahesh Babu,Kriti Sanon | Devi Sri Prasad
+              </p>
+              <p class="video-author">          
+                MRT Music 
+              </p>
+              <p class="video-stats">
+                5.6M views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+
+            <a href="https://www.youtube.com/watch?v=rslYbT2GvRs">
+              <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+            </a>
+
+            <div class="video-time">4:45</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+
+              <a href="https://www.youtube.com/@saregamasouth">
+                <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
+              </a>
+
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Prema Velluva - Lyrical | HIT 3 | Nani | Sailesh Kolanu | Srinidhi Shetty | Mickey J Meyer
+              </p>
+              <p class="video-author">              
+                Saregama Telugu
+              </p>
+              <p class="video-stats">
+                15M views &#183; 1 month ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+
+            <a href="https://www.youtube.com/watch?v=pQbvrDl3kcY">
+              <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+            </a>
+
+            <div class="video-time">3:01</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+
+              <a href="https://www.youtube.com/@ohee_creation">
+                <img class="profile-picture" src="channel-pictures/channel-5.jpeg">
+              </a>
+
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                I wanna be yours - arctic monkeys
+              </p>
+              <p class="video-author">
+                𝙊𝙝𝙚𝙚 𝙘𝙧𝙚𝙖𝙩𝙞𝙤𝙣
+              </p>
+              <p class="video-stats">
+                8M views &#183; 9 months ago
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+
+            <a href="https://www.youtube.com/watch?v=aQvNh-WorpY">
+              <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+            </a>
+
+            <div class="video-time">5:32</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+
+              <a href="https://www.youtube.com/@bahaddurali777">
+                <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
+              </a>
+               
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                 Kanulanu Thaake ( Slow+Reverb ) || #bahaddurali
+              </p>
+              <p class="video-author">
+                Bahaddur Ali
+              </p>
+              <p class="video-stats">
+                36K views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+
+            <a href="https://www.youtube.com/watch?v=zNFlJqvxwdg">
+              <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+            </a>
+
+            <div class="video-time">3:31</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+
+              <a href="http://youtube.com/@TseriesTelugu">
+                <img class="profile-picture" src="channel-pictures/channel-7.jpeg">
+              </a>
+
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Full Video: Gaaju Bomma | HI NANNA: | Nani, Mrunal T | Baby Kiara K| Shouryuv | Hesham Abdul Wahab
+              </p>
+              <p class="video-author">
+                T-Series Telugu
+              </p>
+              <p class="video-stats">
+                40M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+
+            <a href="https://www.youtube.com/watch?v=gnlyI6RM6ik">
+              <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+            </a>
+
+            <div class="video-time">1:55</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+
+              <a href="https://www.youtube.com/@TeluguMusicStation">
+                <img class="profile-picture" src="channel-pictures/channel-8.jpeg">
+              </a>
+
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Reddamma Thalli - Full Video | Aravindha Sametha | Jr. NTR, Pooja Hegde | Thaman S | Trivikram
+              </p>
+              <p class="video-author">
+                Telugu Music Station
+              </p>
+              <p class="video-stats">
+                439K views &#183; 2 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+
+            <a href="https://www.youtube.com/watch?v=hlwlM4a5rxg&t=10s">
+              <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+            </a>
+
+            <div class="video-time">11:07</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+
+              <a href="https://www.youtube.com/@codehal">
+                <img class="profile-picture" src="channel-pictures/channel-9.jpeg">
+              </a>
+
+            </div>
+            <div class="video-info">
+              <p class="video-title">              
+                Login Form in HTML 	&#38; CSS
+              </p>
+              <p class="video-author">
+                Codehal
+              </p>
+              <p class="video-stats">
+                2.2M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+
+            <a href="https://www.youtube.com/watch?v=M0JYk7Jvuo0&t=7s">
+              <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+            </a>
+
+            <div class="video-time">2:37</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+
+              <a href="https://www.youtube.com/@EtvwinOriginals">
+                <img class="profile-picture" src="channel-pictures/channel-10.jpeg">
+              </a>
+
+            </div>
+            <div class="video-info">
+              <p class="video-title">          
+                Anaganaga – Official Trailer | A WIN Original | May 15 Release | Sumanth Kumar &#38; Kajal Choudhary
+              </p>
+              <p class="video-author">
+                Etv Win Originals
+              </p>
+              <p class="video-stats">
+                471K views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+         <div class="video-preview">
+          <div class="thumbnail-row">
+
+            <a href="https://www.youtube.com/watch?v=dEUtUuddI8Y">
+              <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+            </a>
+
+            <div class="video-time">4:48</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              
+              <a href="https://www.youtube.com/@ETVDhee">
+                <img class="profile-picture" src="channel-pictures/channel-11.jpeg">
+              </a>
+
+              </div>
+            <div class="video-info">
+              <p class="video-title">          
+                Nalupu Neredanti Song - Manikanta &#38; Tejaswini Performance | Dhee Best Moments | 7th June 2023 | ETV
+              </p>
+              <p class="video-author">
+                ETV Dhee
+              </p>
+              <p class="video-stats">
+                4.3M views &#183; 1 year ago  
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+
+            <a href="https://www.youtube.com/watch?v=jGfme6RjThg">
+              <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+            </a>
+
+            <div class="video-time">2:38:56</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+
+              <a href="https://www.youtube.com/@mangoVideos">
+                <img class="profile-picture" src="channel-pictures/channel-12.jpeg">
+              </a>
+              
+              </div>
+            <div class="video-info">
+              <p class="video-title">          
+               Seethamma Vakitlo Sirimalle Chettu (SVSC) Full Movie | Mahesh Babu | Venkatesh | Samantha | Anjali
+              </p>
+              <p class="video-author">
+                Mango Videos
+              </p>
+              <p class="video-stats">
+                25M views &#183; 9 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+    </main>
+  </body>
+</html>
